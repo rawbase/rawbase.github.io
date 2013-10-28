@@ -514,10 +514,6 @@ dd p:first-child {
   margin-top: 0;
 }
 
-figure {
-  text-align: center
-}
-
 /* Content based headers */
 
 #main_content > .header-level-1:first-child,
