@@ -1,51 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
-
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
     <title>R&amp;Wbase by rawbase</title>
-  </head>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+  </head>
   <body>
-    <a id="forkme_banner" href="https://github.com/rawbase">View on GitHub</a>
-    <div class="shell">
 
       <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>R&amp;Wbase</h1>
-            <h2>enabling the distributed version control for linked data</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
+        <h1>R&amp;Wbase</h1>
+        <p>enabling the distributed version control for linked data</p>
       </header>
 
-      <div id="no-downloads">
-        <span class="inner">
-        </span>
-      </div>
+      <div id="banner">
+        <span id="logo"></span>
 
+        <a href="https://github.com/rawbase" class="button fork"><strong>View On GitHub</strong></a>
+      </div><!-- end banner -->
 
-      <span class="banner-fix"></span>
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <p>R&amp;Wbase (read: rawbase) enables the Read-Write Web. It is an interpretation layer on top of Triple Stores, that offers versioning to its interfaces (e.g., SPARQL endpoint).  </p>
 
+<h1>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h1>
 
-      <section id="main_content">
-        <p>R&amp;Wbase (read: rawbase) enables the Read-Write world wide web. It is an interpretation layer on top of SPARQL endpoints. It translated SPARQL queries towards version queries using versioned graph-names in the FROM clause.</p>
+<ul>
+<li>
+</ul><h1>
+<a name="software-release" class="anchor" href="#software-release"><span class="octicon octicon-link"></span></a>Software Release</h1>
+
+<p>The current implementation of R&amp;Wbase is based on a modified Fuseki-Virtuoso setup. </p>
 
 <p>With R&amp;Wbase you will be able to commit to a local branch, you will be able to push towards a remote, or pull from a remote and so on and so forth. It brings the same innovation that Git brought to software development towards data.</p>
 
@@ -89,21 +86,11 @@ on the Web, May 2013. → <a href="http://events.linkeddata.org/ldow2013/papers/
 </li>
 </ul>
       </section>
-
       <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/rawbase">rawbase</a> can be found on <a href="https://github.com/rawbase">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
-
     </div>
-
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
